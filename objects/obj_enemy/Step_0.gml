@@ -6,3 +6,21 @@ if (distance_to_object(obj_player) < 128) {
 	}
 }
 mp_potential_step(lastx, lasty, 1, false);
+
+var spr_dir = point_direction(xprevious,yprevious,x,y)
+// 0
+if ((spr_dir > 337.5 && spr_dir < 360) || (spr_dir > 0 && spr_dir < 22.5))  sprite_index = global.en_sprite_0;
+// 45
+if (spr_dir > 22.5  && spr_dir < 67.5)  sprite_index = global.en_sprite_45;
+// 90
+if (spr_dir > 67.5  && spr_dir < 112.5) sprite_index = global.en_sprite_90;
+// 135
+if (spr_dir > 112.5 && spr_dir < 157.5) sprite_index = global.en_sprite_135;
+// 180
+if (spr_dir > 157.5 && spr_dir < 202.5) sprite_index = global.en_sprite_180;
+// 225
+if (spr_dir > 202.5 && spr_dir < 247.5) sprite_index = global.en_sprite_225;
+// 270
+if (spr_dir > 247.5 && spr_dir < 292.5) sprite_index = global.en_sprite_270;
+// 315
+if (spr_dir > 292.5 && spr_dir < 337.5) sprite_index = global.en_sprite_315;
