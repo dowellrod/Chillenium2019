@@ -8,7 +8,7 @@ if (keyboard_check(ord("r"))) {
 	
 	path_delete(argument0.path);
 	argument0.currentPathX = argument0.xPos;
-	argument0.currentPathY = argument0.yPos;	
+	argument0.currentPathY = argument0.yPos;
 }
 
 // check if [0-3] was pressed
@@ -40,7 +40,7 @@ argument0.currentPathY += (global.INPUT_RIGHT - global.INPUT_LEFT) * argument0.d
 
 // move arrow
 argument1.arrowX = argument0.currentPathX;
-argument1.arrowY = argument1.currentPathY;
+argument0.arrowY = argument0.currentPathY;
 
 event_perform_object(argument1, ev_other, 0);
 
@@ -48,11 +48,11 @@ event_perform_object(argument1, ev_other, 0);
 path_add_point(argument0.path, argument0.currentPathX, argument0.currentPathY, argument0.decoySpeed);
 
 // add position to visual path
-if (argument0.addCounter == 0) {
+if (argument0.addTimer == 0) {
 	
 	ds_list_add(argument0.path, argument0.currentPathX, argument0.currentPathY);
-	argument0.addCounter = 5;
+	argument0.addTimer = 5;
 }
 else {
-	argument0.addCounter--;
+	argument0.addTimer--;
 }
