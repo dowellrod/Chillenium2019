@@ -1,15 +1,14 @@
 // this is called whenever decoy mode is entered
 
-// get current decoy and create path arrow
-decoy = global.DECOY_LIST[global.CURRENT_DECOY];
+// create decoy ghost
+var decoy = global.DECOY_LIST[global.CURRENT_DECOY];
 
-arrow = instance_create_depth(decoy.currentPathX, decoy.currentPathY, 100, obj_PathArrow);
-arrow.image_angle = decoy.image_angle;
+var ghost = instance_create_depth(decoy.xPos, decoy.yPos, -100, obj_decoyGhost);
 
-// get path
-decoyPath = GET_PATH(decoy, arrow);
+// get path (stored in decoy)
+GHOST_PATH(decoy, ghost);
 
 // if idle, execute path
-if (currentState == PlayerStates.IDLE) {
-	path_start(decoyPath, decoy.decoySpeed, path_action_stop, true);
+if (global.currentState == PlayerStates.IDLE) {
+	event_perform_object(decoy, ev_user0, 0);
 }
