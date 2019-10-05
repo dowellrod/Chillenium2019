@@ -34,6 +34,11 @@ if (!global.INPUT_UP && !global.INPUT_DOWN && !global.INPUT_RIGHT && !global.INP
 
 
 // Pathing
-for (i = 0; i < global.pathLength; i++) 
-	if(global.INPUT_PATH[i])
-		state = PlayerStates.PATH;
+for (i = 0; i < global.pathLength; i++) {
+	
+	// set state (path is executed in player's step function)
+	if(global.INPUT_PATH[i]) {
+		currentState = PlayerStates.PATH;
+		global.CURRENT_DECOY = i;
+	}		
+}
