@@ -11,4 +11,4 @@ state[PlayerStates.IDLE] = Player_Idle;
 state[PlayerStates.MOVE] = Player_Move;
 state[PlayerStates.PATH] = Player_Path;
 
-currentState = PlayerStates.IDLE;
+global.currentState = PlayerStates.IDLE;
