@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_halfwall",
     "eventList": [
-        
+        {
+            "id": "981b66a2-6ec6-41d4-9fb9-dbda6cb6ca54",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "35838f62-7e81-44c3-b7ea-f76f432dc21a"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

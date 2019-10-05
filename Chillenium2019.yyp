@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -116,6 +116,14 @@
                 "id": "1c5a7add-3387-465c-ac6f-3131d1c59d3b",
                 "resourcePath": "scripts\\Player_Idle\\Player_Idle.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "460a03c6-c36d-46dc-9ffd-c0d2f315fc9f",
+            "Value": {
+                "id": "0646aa7d-c48c-4e12-b398-ddc418eb7a2d",
+                "resourcePath": "sprites\\spr_alerted\\spr_alerted.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -316,14 +324,6 @@
                 "id": "4dc20567-2ab1-4cdc-a45f-a2a51c6c16d6",
                 "resourcePath": "objects\\GameManager\\GameManager.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9a8c04d7-3a7f-4dfb-9faa-2aa8dc3cb6e7",
-            "Value": {
-                "id": "96e79796-42c7-448a-9724-f7fdb4f52ffb",
-                "resourcePath": "sprites\\spr_path1\\spr_path1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
