@@ -1,4 +1,3 @@
-
 // Player Variables
 horizontalDirection = 0;
 verticalDirection = 0;

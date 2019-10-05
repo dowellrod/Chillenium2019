@@ -1,8 +1,8 @@
 {
-    "id": "96166bc9-e8c9-4fcd-bfed-0456ee0cdb47",
+    "id": "afb4ad7f-79a8-47ec-94f6-34f4aeb2873a",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "INPUT",
+    "name": "Sprite_List",
     "IsCompatibility": false,
     "IsDnD": false
 }
