@@ -71,6 +71,14 @@
             }
         },
         {
+            "Key": "219ae2b5-50ed-40ef-a357-f6ac290c115f",
+            "Value": {
+                "id": "d40cafc3-5cf2-4a81-8a1b-6e5d3da90c64",
+                "resourcePath": "scripts\\Collision_Detection\\Collision_Detection.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "254c500c-305c-4b70-adaa-a28f88682a6f",
             "Value": {
                 "id": "8868413f-5116-4554-84ee-180547b2249f",
@@ -399,6 +407,14 @@
             }
         },
         {
+            "Key": "b025c6e6-468a-4092-97ca-2190f25b9060",
+            "Value": {
+                "id": "7f0920d2-7e12-47cc-865a-1575a04cfca6",
+                "resourcePath": "objects\\COLLIDEABLE\\COLLIDEABLE.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b080fce1-a2a2-4730-86a0-95db4bcc9eb4",
             "Value": {
                 "id": "1621726f-f5a6-409f-92d3-ea070a4820fd",
@@ -500,6 +516,7 @@
         "3f32a1c9-152d-4877-9664-8fff3d0b33dc",
         "b080fce1-a2a2-4730-86a0-95db4bcc9eb4",
         "046c5682-9439-4a8c-b7ac-1a4dbcaac9d9",
+        "219ae2b5-50ed-40ef-a357-f6ac290c115f",
         "96166bc9-e8c9-4fcd-bfed-0456ee0cdb47",
         "afb4ad7f-79a8-47ec-94f6-34f4aeb2873a"
     ],

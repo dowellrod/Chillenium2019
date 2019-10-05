@@ -1,8 +1,13 @@
 // Movement
-verticalDirection = global.INPUT_DOWN - global.INPUT_UP;
-y += verticalDirection * mySpeed;
 horizontalDirection = global.INPUT_RIGHT - global.INPUT_LEFT;
-x += horizontalDirection * mySpeed;
+horizontalMovement = horizontalDirection * mySpeed;
+Collision_Detection();
+x += horizontalMovement;
+
+verticalDirection = global.INPUT_DOWN - global.INPUT_UP;
+verticalMovement = verticalDirection * mySpeed;
+Collision_Detection();
+y += verticalMovement;
 
 // Animation
 // 0
@@ -25,6 +30,8 @@ if (verticalDirection < 0  && horizontalDirection > 0)  sprite_index = global.sp
 
 // Change State
 if (!global.INPUT_UP && !global.INPUT_DOWN && !global.INPUT_RIGHT && !global.INPUT_LEFT) currentState = PlayerStates.IDLE;
+
+
 
 // Pathing
 for (i = 0; i < global.pathLength; i++) {
