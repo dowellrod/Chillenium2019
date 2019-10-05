@@ -1,8 +1,8 @@
 {
-    "id": "464a36fe-6eee-437f-be11-854f5e66f841",
+    "id": "708c9b02-fd6e-4fe8-a1b4-c54a50666842",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "GET_PATH",
+    "name": "GHOST_PATH",
     "IsCompatibility": false,
     "IsDnD": false
 }
