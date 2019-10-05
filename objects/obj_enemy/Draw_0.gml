@@ -4,3 +4,5 @@ if (distance_to_object(obj_player) < 128) {
 	}
 }
 draw_self();
+
+draw_text(100,100,point_direction(xprevious,yprevious,x,y));
