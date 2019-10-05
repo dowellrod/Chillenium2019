@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "9417656e-cfac-4efc-8dfb-92383188e4ac",
+            "Value": {
+                "id": "66676c61-2f9e-40d1-9f47-9670912d8824",
+                "resourcePath": "scripts\\EXECUTE_PATH\\EXECUTE_PATH.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "96166bc9-e8c9-4fcd-bfed-0456ee0cdb47",
             "Value": {
                 "id": "f81fb5f5-4c33-4086-a4d6-8523bf355039",
@@ -292,14 +300,6 @@
                 "id": "4dc20567-2ab1-4cdc-a45f-a2a51c6c16d6",
                 "resourcePath": "objects\\GameManager\\GameManager.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "9a8c04d7-3a7f-4dfb-9faa-2aa8dc3cb6e7",
-            "Value": {
-                "id": "96e79796-42c7-448a-9724-f7fdb4f52ffb",
-                "resourcePath": "sprites\\spr_path1\\spr_path1.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -447,7 +447,8 @@
         "b080fce1-a2a2-4730-86a0-95db4bcc9eb4",
         "046c5682-9439-4a8c-b7ac-1a4dbcaac9d9",
         "96166bc9-e8c9-4fcd-bfed-0456ee0cdb47",
-        "afb4ad7f-79a8-47ec-94f6-34f4aeb2873a"
+        "afb4ad7f-79a8-47ec-94f6-34f4aeb2873a",
+        "9417656e-cfac-4efc-8dfb-92383188e4ac"
     ],
     "tutorial": ""
 }
