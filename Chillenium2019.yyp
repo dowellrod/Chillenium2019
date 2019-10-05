@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "8427047f-9ef8-4c77-89f3-9c20623d07b6",
+            "Value": {
+                "id": "77fdcb14-ed7d-4a25-b565-af33d92312f3",
+                "resourcePath": "options\\ios\\options_ios.yy",
+                "resourceType": "GMiOSOptions"
+            }
+        },
+        {
             "Key": "89950774-463e-40b1-acad-1c045157acdf",
             "Value": {
                 "id": "34ffc59f-ae69-4641-908b-c3c07b5485ae",
@@ -223,6 +231,14 @@
             }
         },
         {
+            "Key": "93566aad-c3b3-48a9-8fa7-9c5ee19f74ac",
+            "Value": {
+                "id": "d7799f06-1329-435a-b694-a37008add2a8",
+                "resourcePath": "options\\tvos\\options_tvos.yy",
+                "resourceType": "GMtvOSOptions"
+            }
+        },
+        {
             "Key": "9a8c04d7-3a7f-4dfb-9faa-2aa8dc3cb6e7",
             "Value": {
                 "id": "96e79796-42c7-448a-9724-f7fdb4f52ffb",
@@ -231,11 +247,27 @@
             }
         },
         {
+            "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
+            "Value": {
+                "id": "8c1e18e5-eeaa-437b-b701-fed387df8215",
+                "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
+                "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
             "Key": "a7301fe5-3543-40c9-bdde-2fbe3457d263",
             "Value": {
                 "id": "5c109153-04c2-4e65-9990-5dbf7ff98e12",
                 "resourcePath": "views\\a7301fe5-3543-40c9-bdde-2fbe3457d263.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "0022b928-f070-440b-9238-8905389b1738",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -287,11 +319,27 @@
             }
         },
         {
+            "Key": "e42bf5cc-3f46-4d67-a6d0-a4885a11ac3f",
+            "Value": {
+                "id": "82ece5fb-8729-41f9-8cfa-106a6d2bddf8",
+                "resourcePath": "options\\android\\options_android.yy",
+                "resourceType": "GMAndroidOptions"
+            }
+        },
+        {
             "Key": "f19b9774-9641-43db-8983-92a1df3f25f1",
             "Value": {
                 "id": "8c548467-7029-4719-b306-7db29881b179",
                 "resourcePath": "rooms\\room0\\room0.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "aa17f326-c9df-4416-bc44-2364bb5f282e",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
