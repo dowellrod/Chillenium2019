@@ -7,4 +7,4 @@ if (global.INPUT_UP || global.INPUT_DOWN || global.INPUT_RIGHT || global.INPUT_L
 // Pathing
 for (i = 0; i < global.pathLength; i++) 
 	if(global.INPUT_PATH[i])
-		state = PlayerStates.PATH;
+		currentState = PlayerStates.PATH;
