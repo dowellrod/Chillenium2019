@@ -1,61 +1,51 @@
 // This returns the path of a decoy based on user input
 // Draws path
 
-// argument0 = decoy
+// argument0 = decoy, argument1 = path arrow
 
-// create new path starting at decoy
-path = path_add();
-path_add_point(path, argument0.xPos, argument0.yPos, argument0.decoySpeed);
-
-// draw starting arrow
-pathArrow = instance_create_depth(argument0.xPos, argument0.yPos, 300, obj_PathArrow);
-pathArrow.image_angle = argument0.image_angle;
-
-// get starting position
-var pathX = argument0.xPos;
-var pathY = argument0.yPos;
-
-// initialize list of positions
-var pathList = ds_list_create();
-ds_list_add(pathList, pathX, pathY);
-
-var addCounter = 10;
-
-// TODO: check game mode correctly
-while (global.GAME_MODE == 1) {
+// if r is pressed, reset path
+if (keyboard_check(ord("r"))) {
 	
-	// draw current path
-	for (i = 0; i < ds_list_size(pathList);) {
-		
-		instance_create_depth(pathList[i], pathList[i + 1], 300, obj_Path);
-		
-		i += 2;
-	}
-	
-	// update path position
-	pathX += (global.INPUT_DOWN - global.INPUT_UP) * argument0.decoySpeed;
-	pathY += (global.INPUT_RIGHT - global.INPUT_LEFT) * argument0.decoySpeed;
-	
-	// add new position to path
-	path_add_point(path, pathX, pathY, argument0.decoySpeed);
-
-	// add to list (but not on every step)
-	if (addCounter == 0) {
-		
-		ds_list_add(pathList, pathX, pathY);
-		addCounter = 10;
-	}
-	else {
-		addCounter--;
-	}
-	
-	// move path arrow to new position
-	// TODO: rotate arrow
-	move_towards_point(pathX, pathY, argument0.decoySpeed);
+	path_delete(argument0.path);
+	argument0.currentPathX = argument0.xPos;
+	argument0.currentPathY = argument0.yPos;	
 }
 
-// clear path
-ds_list_destroy(pathList);
+// check if [0-3] was pressed
+for (i = 0; i < global.pathLength; i++) {
+	
+	// check if same decoy button is pressed
+	if (global.INPUT_PATH[i] && i == global.CURRENT_DECOY) {
+		
+		// clear visual path and return
+		ds_list_destroy(argument0.pathList);
+		instance_destroy(argument1);
+		
+		global.currentState = PlayerStates.IDLE;
+		
+		return;
+	}
+}
 
-// return new path
-return path;
+// draw current path
+for (i = 0; i < ds_list_size(argument0.pathList);) {
+	
+	draw_sprite(spr_path, 0, argument0.pathList[| i], argument0.pathList[| (i + 1)]);
+	i += 2;
+}
+
+// update position
+argument0.currentPathX += (global.INPUT_RIGHT - global.INPUT_LEFT) * argument0.decoySpeed;
+argument0.currentPathY += (global.INPUT_DOWN - global.INPUT_UP) * argument0.decoySpeed;
+
+// move arrow
+argument1.arrowX = argument0.currentPathX;
+argument1.arrowY = argument0.currentPathY;
+
+event_perform_object(argument1, ev_user0, 0);
+
+// add position to path
+path_add_point(argument0.path, argument0.currentPathX, argument0.currentPathY, argument0.decoySpeed);
+
+// add position to visual path
+ds_list_add(argument0.path, argument0.currentPathX, argument0.currentPathY);

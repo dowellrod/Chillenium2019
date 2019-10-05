@@ -1,1 +1,3 @@
-script_execute(state[currentState]);
+INPUT();
+Sprite_List();
+script_execute(state[global.currentState]);
