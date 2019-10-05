@@ -8,23 +8,28 @@ path = path_add();
 path_add_point(path, argument0.xPos, argument0.yPos, argument0.decoySpeed);
 
 // draw starting arrow
-instance_create_depth(argument0.xPos, argument0.yPos, 300, obj_PathArrow);
+pathArrow = instance_create_depth(argument0.xPos, argument0.yPos, 300, obj_PathArrow);
+pathArrow.image_angle = argument0.image_angle;
 
+// get previous position
+var prevX = argument0.xPos;
+var prevY = argument0.yPos;
 
-// TODO: check if decoy is selected
 while (global.GAME_MODE == 1) {
 
 	if (global.INPUT_UP) {
 		
 		// update path
-		path_add_point(path, argument0.xPos, argument0.yPos, argument0.decoySpeed);
+		var newX = prevX;
+		var newY = prevY;
+		
+		path_add_point(path, newX, newY, argument0.decoySpeed);
 		
 		// draw path arrow in new place
-			// create arrow
-			// orient arrow
+		move_towards_point(newX, newY, argument0.decoySpeed);
 		
-		
-		// create path in previous place (check orientation and corner)
+		// create path in previous place
+						
 	}	
 	
 	else if (global.INPUT_DOWN) {
