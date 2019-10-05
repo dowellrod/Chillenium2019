@@ -5,4 +5,4 @@ if (distance_to_object(obj_player) < 128) {
 		lasty = obj_player.y;
 	}
 }
-mp_potential_step(lastx, lasty, 1, true);
+mp_potential_step(lastx, lasty, 1, false);
