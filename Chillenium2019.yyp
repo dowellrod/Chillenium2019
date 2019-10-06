@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "3e32127b-4e31-407c-92ea-973a53992c75",
+            "Value": {
+                "id": "e1f6f37e-5bd9-4eb7-b3f8-b820c2e7ce40",
+                "resourcePath": "sounds\\msc_danger\\msc_danger.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3e7a1682-0f4b-411a-88f9-7e492cb48675",
             "Value": {
                 "id": "0f36706d-95ad-41cb-9c35-b8ae3391a030",
@@ -535,6 +543,14 @@
             }
         },
         {
+            "Key": "8337f55e-892e-4069-ab3b-2d1d6dad2ce0",
+            "Value": {
+                "id": "2b2320d6-3be5-45d8-8e96-d8d7e098593d",
+                "resourcePath": "sprites\\spr_siren\\spr_siren.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8366606f-ab97-4271-9d0e-809bcd9873e3",
             "Value": {
                 "id": "cca63d74-e8df-42ac-90bd-66c9c7cfa766",
@@ -759,6 +775,14 @@
             }
         },
         {
+            "Key": "b0533e09-cc1d-4f4e-a0cf-87ad39e386ea",
+            "Value": {
+                "id": "9274389b-d7bc-403e-a2b8-64d908acce71",
+                "resourcePath": "objects\\obj_siren\\obj_siren.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b080fce1-a2a2-4730-86a0-95db4bcc9eb4",
             "Value": {
                 "id": "1621726f-f5a6-409f-92d3-ea070a4820fd",
@@ -820,6 +844,14 @@
                 "id": "bfc65a08-90d4-4ac8-9319-a47a65841bc4",
                 "resourcePath": "sprites\\spr_enAlt_135\\spr_enAlt_135.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb8382d9-c1ea-4b8f-825e-79b681cd1f6b",
+            "Value": {
+                "id": "4347416d-fbbd-4dc0-a1be-ef4505866f97",
+                "resourcePath": "sounds\\msc_safe\\msc_safe.yy",
+                "resourceType": "GMSound"
             }
         },
         {

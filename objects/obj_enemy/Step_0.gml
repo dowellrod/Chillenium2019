@@ -1,33 +1,49 @@
 /// @description Player detection
-if (distance_to_object(obj_player) < 128) {
+if (distance_to_object(obj_player) < 192) {
 	if (!collision_line(x, y, obj_player.x, obj_player.y, obj_wall, false, false)) {
 		lastx = obj_player.x;
 		lasty = obj_player.y;
 		canSee = true;
+		global.safe = false
 	}
-	else canSee = false;
-} else if (distance_to_object(obj_decoy0) < 128) {
+	else {
+		canSee = false;
+		global.safe = true;
+	}
+} else if (distance_to_object(obj_decoy0) < 192) {
 	if (!collision_line(x, y, obj_decoy0.x, obj_decoy0.y, obj_wall, false, false)) {
 		lastx = obj_decoy0.x;
 		lasty = obj_decoy0.y;
 		canSee = true;
 	} 
 	else canSee = false;
-} else if (distance_to_object(obj_decoy1) < 128) {
+} else if (distance_to_object(obj_decoy1) < 192) {
+	
+	// Siren Check
+	if(instance_exists(obj_decoy1)){
+		if (distance_to_object(obj_decoy1) < obj_decoy1.sirenRange && obj_decoy1.siren == true) {
+			lastx = obj_decoy1.x;
+			lasty = obj_decoy1.y;
+			canSee = true;
+		}
+	}
+	else canSee = false;
 	if (!collision_line(x, y, obj_decoy1.x, obj_decoy1.y, obj_wall, false, false)) {
 		lastx = obj_decoy1.x;
 		lasty = obj_decoy1.y;
 		canSee = true;
 	} 
 	else canSee = false;
-} else if (distance_to_object(obj_decoy2) < 128) {
+} else if (distance_to_object(obj_decoy2) < 192) {
 	if (!collision_line(x, y, obj_decoy2.x, obj_decoy2.y, obj_wall, false, false)) {
-		lastx = obj_decoy2.x;
-		lasty = obj_decoy2.y;
-		canSee = true;
-	} 
+		if(obj_decoy2.isInvisable == false) {
+			lastx = obj_decoy2.x;
+			lasty = obj_decoy2.y;
+			canSee = true;
+		}
+	}
 	else canSee = false;
-} else if (distance_to_object(obj_decoy3) < 128) {
+} else if (distance_to_object(obj_decoy3) < 192) {
 	if (!collision_line(x, y, obj_decoy3.x, obj_decoy3.y, obj_wall, false, false)) {
 		lastx = obj_decoy3.x;
 		lasty = obj_decoy3.y;
@@ -38,7 +54,9 @@ if (distance_to_object(obj_player) < 128) {
 else {
 	canSee = false;
 }
-mp_potential_step(lastx, lasty, 1, false);
+
+
+mp_potential_step(lastx, lasty, 2.5, false);
 //mp_potential_step(lastx, lasty, 1, false);
 
 
