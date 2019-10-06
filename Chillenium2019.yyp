@@ -783,6 +783,14 @@
             }
         },
         {
+            "Key": "be13b259-9172-4c7b-84c9-88c0868128f4",
+            "Value": {
+                "id": "ba411961-21c9-499c-b726-7c76a772405b",
+                "resourcePath": "sprites\\spr_alertdecoy\\spr_alertdecoy.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bfa4bba4-b698-4fea-8f28-78e8952df363",
             "Value": {
                 "id": "ca3252d7-308b-42b3-a218-e570664af5cf",
