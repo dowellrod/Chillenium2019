@@ -23,7 +23,8 @@ if (distance_to_object(obj_player) < 192) {
 			canSee = true;
 		}
 	}
-	else if (!collision_line(x, y, obj_decoy1.x, obj_decoy1.y, obj_wall, false, false)) {
+	else canSee = false;
+	if (!collision_line(x, y, obj_decoy1.x, obj_decoy1.y, obj_wall, false, false)) {
 		lastx = obj_decoy1.x;
 		lasty = obj_decoy1.y;
 		canSee = true;
