@@ -13,3 +13,11 @@ with(obj_wall) {
 	
 	image_index = 3;
 }
+with(obj_halfwall) {
+	
+	image_index = 3;
+}
+with(obj_wall_top) {
+	
+	image_index = 3;
+}
