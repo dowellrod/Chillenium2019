@@ -4,8 +4,12 @@ if (distance_to_object(obj_player) < 192) {
 		lastx = obj_player.x;
 		lasty = obj_player.y;
 		canSee = true;
+		global.safe = false
 	}
-	else canSee = false;
+	else {
+		canSee = false;
+		global.safe = true;
+	}
 } else if (distance_to_object(obj_decoy0) < 192) {
 	if (!collision_line(x, y, obj_decoy0.x, obj_decoy0.y, obj_wall, false, false)) {
 		lastx = obj_decoy0.x;
