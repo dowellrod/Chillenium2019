@@ -775,6 +775,14 @@
             }
         },
         {
+            "Key": "b0533e09-cc1d-4f4e-a0cf-87ad39e386ea",
+            "Value": {
+                "id": "9274389b-d7bc-403e-a2b8-64d908acce71",
+                "resourcePath": "objects\\obj_siren\\obj_siren.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b080fce1-a2a2-4730-86a0-95db4bcc9eb4",
             "Value": {
                 "id": "1621726f-f5a6-409f-92d3-ea070a4820fd",
