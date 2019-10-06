@@ -1458,7 +1458,7 @@
     "interpreter": 0,
     "italic": false,
     "kerningPairs": [
-        
+
     ],
     "last": 0,
     "maintainGms1Font": false,
