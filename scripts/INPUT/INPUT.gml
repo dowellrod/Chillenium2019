@@ -3,6 +3,7 @@ global.INPUT_UP    = keyboard_check(vk_up);
 global.INPUT_DOWN  = keyboard_check(vk_down);
 global.INPUT_RIGHT = keyboard_check(vk_right);
 global.INPUT_LEFT  = keyboard_check(vk_left);
+
 #endregion
 
 #region Paths
@@ -34,5 +35,10 @@ for (i = 0; i < global.pathLength; i++) {
 #region Tech
 
 global.INPUT_ESCAPE = keyboard_check_released(vk_escape);
+global.INPUT_ENTER = keyboard_check_pressed(vk_enter);
+global.INPUT_SPACE = keyboard_check_pressed(vk_space);
+
+global.INPUT_UP_released   = keyboard_check_released(vk_up);
+global.INPUT_DOWN_released = keyboard_check_released(vk_down);
 
 #endregion
