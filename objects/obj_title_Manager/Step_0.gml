@@ -17,7 +17,7 @@ if (global.INPUT_SPACE || global.INPUT_ENTER) {
 	
 	if (selectedID == 0){
 		audio_stop_all();
-		room_goto_next();
+		room = rm_Summary;
 	}
 	else if (selectedID == 1){
 		room = rm_Controls;
