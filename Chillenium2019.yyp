@@ -279,6 +279,14 @@
             }
         },
         {
+            "Key": "3e32127b-4e31-407c-92ea-973a53992c75",
+            "Value": {
+                "id": "e1f6f37e-5bd9-4eb7-b3f8-b820c2e7ce40",
+                "resourcePath": "sounds\\msc_danger\\msc_danger.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3e7a1682-0f4b-411a-88f9-7e492cb48675",
             "Value": {
                 "id": "0f36706d-95ad-41cb-9c35-b8ae3391a030",
@@ -828,6 +836,14 @@
                 "id": "bfc65a08-90d4-4ac8-9319-a47a65841bc4",
                 "resourcePath": "sprites\\spr_enAlt_135\\spr_enAlt_135.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cb8382d9-c1ea-4b8f-825e-79b681cd1f6b",
+            "Value": {
+                "id": "4347416d-fbbd-4dc0-a1be-ef4505866f97",
+                "resourcePath": "sounds\\msc_safe\\msc_safe.yy",
+                "resourceType": "GMSound"
             }
         },
         {
