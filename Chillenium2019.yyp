@@ -1143,14 +1143,6 @@
             }
         },
         {
-            "Key": "f694c420-5829-41b0-8951-73f11d2c3e32",
-            "Value": {
-                "id": "62d3a9c2-4ced-46c6-a2a9-418ffdc90d38",
-                "resourcePath": "sprites\\spr_enemy_sightRange_pixel\\spr_enemy_sightRange_pixel.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f7543028-e35a-4289-87a9-a0ec10183752",
             "Value": {
                 "id": "928ab183-2f96-4ff3-af14-0944ff457580",
