@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -91,6 +91,14 @@
             "Value": {
                 "id": "634bf537-202c-451d-a55a-f20e3cd0f9a9",
                 "resourcePath": "sprites\\spr_decoy_315\\spr_decoy_315.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "0bd1b1e1-817c-48ac-a2fd-dd2c85ddaa9e",
+            "Value": {
+                "id": "673abc74-8fbd-44ec-9a15-06867d8b5a3e",
+                "resourcePath": "sprites\\sprite64\\sprite64.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -319,19 +327,19 @@
             }
         },
         {
-            "Key": "3be0f2a1-893b-4013-9ffc-de1e9ea1edfa",
-            "Value": {
-                "id": "53e79ff8-b405-4e84-b87d-6ab51004750e",
-                "resourcePath": "paths\\path6\\path6.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "3b8740e2-59a1-41ba-b8e2-afcaaac2a7e0",
             "Value": {
                 "id": "c8b82ab8-9379-497c-9d3c-53cf4ea03b84",
                 "resourcePath": "objects\\obj_controls\\obj_controls.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3be0f2a1-893b-4013-9ffc-de1e9ea1edfa",
+            "Value": {
+                "id": "53e79ff8-b405-4e84-b87d-6ab51004750e",
+                "resourcePath": "paths\\path6\\path6.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -847,6 +855,14 @@
             }
         },
         {
+            "Key": "97efaa3c-e113-496d-aa0b-4c3184296eec",
+            "Value": {
+                "id": "af170888-5718-4be3-939e-b5637d84c3ae",
+                "resourcePath": "sprites\\spr_TitleScreenLogo\\spr_TitleScreenLogo.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "99673bc6-c402-4a4f-ba5b-a423b0e111bc",
             "Value": {
                 "id": "612eec87-ba28-4e01-be09-ba120ab2f190",
@@ -1004,6 +1020,14 @@
                 "id": "2d0a14c3-049c-4959-a514-2d41cb2345fd",
                 "resourcePath": "paths\\path7\\path7.yy",
                 "resourceType": "GMPath"
+            }
+        },
+        {
+            "Key": "bcde6bef-b4d1-40fb-a2be-4c44efad2b0d",
+            "Value": {
+                "id": "99be0763-f774-4fbf-9cce-b6065f39ff6a",
+                "resourcePath": "sounds\\snd_menuChange\\snd_menuChange.yy",
+                "resourceType": "GMSound"
             }
         },
         {
