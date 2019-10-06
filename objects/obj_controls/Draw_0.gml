@@ -1,4 +1,18 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
+draw_set_color(c_aqua);
 //draw_sprite(spr_selectArrow,0,1506-260, 989);
+draw_text_transformed(960, 200, "Use the arrow keys to move.", .5, .5, image_angle);
+draw_text_transformed(960, 250, "Press Q to send your ghost out.", .5, .5, image_angle);
+draw_text_transformed(960, 300, "While your ghost is out, you only control it.", .5, .5, image_angle);
+draw_text_transformed(960, 350, "Press Q again to recall your ghost.", .5, .5, image_angle);
+draw_text_transformed(960, 400, "Press 1, 2, 3, or 4 to send a decoy to the ghost.", .5, .5, image_angle);
+draw_text_transformed(960, 450, "1 = Purple, 2 = Green, 3 = Blue, 4 = Red", .5, .5, image_angle);
+draw_text_transformed(960, 500, "Purple decoy simply walks and grabs enemies attention that see him.", .5, .5, image_angle);
+draw_text_transformed(960, 550, "Green decoy makes a sound blast when he reaches his destination.", .5, .5, image_angle);
+draw_text_transformed(960, 600, "Blue decoy is invisible until he reaches his destination.", .5, .5, image_angle);
+draw_text_transformed(960, 650, "Red decoy kills the first enemy that attacks him.", .5, .5, image_angle);
+draw_text_transformed(960, 700, "You can only send out each decoy once per level!", .5, .5, image_angle);
+draw_text_transformed(960, 750, "Get the key to open the door.", .5, .5, image_angle);
+draw_text_transformed(960, 800, "Get to the door to go to the next level.", .5, .5, image_angle);
 draw_text(1506,989, "B a c k");
