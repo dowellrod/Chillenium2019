@@ -22,10 +22,12 @@ if (distance_to_object(obj_player) < 128) {
 	else canSee = false;
 } else if (distance_to_object(obj_decoy2) < 128) {
 	if (!collision_line(x, y, obj_decoy2.x, obj_decoy2.y, obj_wall, false, false)) {
-		lastx = obj_decoy2.x;
-		lasty = obj_decoy2.y;
-		canSee = true;
-	} 
+		if(obj_decoy2.isInvisable == false) {
+			lastx = obj_decoy2.x;
+			lasty = obj_decoy2.y;
+			canSee = true;
+		}
+	}
 	else canSee = false;
 } else if (distance_to_object(obj_decoy3) < 128) {
 	if (!collision_line(x, y, obj_decoy3.x, obj_decoy3.y, obj_wall, false, false)) {
@@ -38,6 +40,8 @@ if (distance_to_object(obj_player) < 128) {
 else {
 	canSee = false;
 }
+
+
 mp_potential_step(lastx, lasty, 1, false);
 //mp_potential_step(lastx, lasty, 1, false);
 
