@@ -11,7 +11,6 @@ global.sprite_315  = spr_playerMove_315;
 #endregion
 
 #region Enemy
-global.en_sprite_idle = spr_playerMove_0;
 global.en_sprite_0    = spr_enemy_0;
 global.en_sprite_45   = spr_enemy_45;
 global.en_sprite_90   = spr_enemy_90;
@@ -21,6 +20,14 @@ global.en_sprite_225  = spr_enemy_225;
 global.en_sprite_270  = spr_enemy_270;
 global.en_sprite_315  = spr_enemy_315;
 
+global.enAlt_sprite_0    = spr_enAlt_0;
+global.enAlt_sprite_45   = spr_enAlt_45;
+global.enAlt_sprite_90   = spr_enAlt_90;
+global.enAlt_sprite_135  = spr_enAlt_135;
+global.enAlt_sprite_180  = spr_enAlt_180;
+global.enAlt_sprite_225  = spr_enAlt_225;
+global.enAlt_sprite_270  = spr_enAlt_270;
+global.enAlt_sprite_315  = spr_enAlt_315;
 
 
 #endregion
