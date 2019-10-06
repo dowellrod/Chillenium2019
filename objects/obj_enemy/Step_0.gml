@@ -4,6 +4,7 @@ if (distance_to_object(obj_player) < 128) {
 		lastx = obj_player.x;
 		lasty = obj_player.y;
 	}
+	else canSee = false;
 }
 mp_potential_step(lastx, lasty, 1, false);
 
