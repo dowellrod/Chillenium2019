@@ -2,7 +2,7 @@
 {
     "name": "rm_Win",
     "id": "765ed43a-3182-4484-9a76-bfeed7e78d72",
-    "creationCodeFile": "",
+    "creationCodeFile": "RoomCreationCode.gml",
     "inheritCode": false,
     "inheritCreationOrder": false,
     "inheritLayers": false,
