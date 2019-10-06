@@ -31,3 +31,14 @@ global.enAlt_sprite_315  = spr_enAlt_315;
 
 
 #endregion
+
+#region Decoy
+global.decoy_sprite_0 = spr_decoy_0;
+global.decoy_sprite_45 = spr_decoy_45;
+global.decoy_sprite_90 = spr_decoy_90;
+global.decoy_sprite_135 = spr_decoy_135;
+global.decoy_sprite_180 = spr_decoy_180;
+global.decoy_sprite_225 = spr_decoy_225;
+global.decoy_sprite_270 = spr_decoy_270;
+global.decoy_sprite_315 = spr_decoy_315;
+#endregion
