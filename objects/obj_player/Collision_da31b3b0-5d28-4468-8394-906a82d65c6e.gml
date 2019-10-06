@@ -1,3 +1,3 @@
 /// @description Death
 audio_stop_all()
-room_restart();
+room = rm_GameOver;
