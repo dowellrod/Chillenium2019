@@ -1,3 +1,7 @@
+// Sight
+draw_sprite(spr_enemy_sightRange, 0, x - 192, y - 192);
+
+
 if (distance_to_object(obj_player) < 192) {
 	if (!collision_line(x, y, obj_player.x, obj_player.y, obj_wall, false, false)) {
 			draw_sprite(spr_alerted, 0, x, y - 32);
