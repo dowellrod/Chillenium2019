@@ -1,6 +1,7 @@
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_aqua);
+draw_set_font(fnt_title);
 //draw_sprite(spr_selectArrow,0,1506-260, 989);
 draw_text_transformed(960, 200, "Use the arrow keys to move.", .5, .5, image_angle);
 draw_text_transformed(960, 250, "Press Q to send your ghost out.", .5, .5, image_angle);
