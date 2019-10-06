@@ -32,12 +32,12 @@ if (verticalDirection > 0  && horizontalDirection > 0)  sprite_index = global.sp
 if (!global.INPUT_UP && !global.INPUT_DOWN && !global.INPUT_RIGHT && !global.INPUT_LEFT) global.currentState = PlayerStates.IDLE;
 
 
-// Pathing
+/*// Pathing
 for (i = 0; i < global.pathLength; i++) {
-	
+
 	// set state (path is executed in player's step function)
 	if(global.INPUT_PATH[i]) {
 		global.currentState = PlayerStates.PATH;
 		global.CURRENT_DECOY = i;
-	}	
-}
+	}
+}*/

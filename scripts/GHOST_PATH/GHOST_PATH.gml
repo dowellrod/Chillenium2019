@@ -1,4 +1,4 @@
-// this moves the ghost of a decoy and sets the decoy's path (NOT THE GHOST'S)
+/*// this moves the ghost of a decoy and sets the decoy's path (NOT THE GHOST'S)
 // argument0 = decoy, argument1 = ghost
 
 // if r is pressed, reset ghost position
@@ -33,4 +33,4 @@ argument1.yPos += argument1.verticalDirection * argument0.decoySpeed;
 
 // add position to path
 //path_add_point(argument0.path, argument1.xPos, argument1.yPos, argument0.decoySpeed);
-ds_list_add(argument0.pathList, argument1.xPos, argument1.yPos);
+ds_list_add(argument0.pathList, argument1.xPos, argument1.yPos);*/
