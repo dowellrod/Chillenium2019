@@ -1,5 +1,5 @@
 // this is called whenever decoy mode is entered
-/*
+
 // create decoy ghost
 var decoy = global.DECOY_LIST[global.CURRENT_DECOY];
 
@@ -12,4 +12,4 @@ GHOST_PATH(decoy, ghost);
 // if idle, execute path
 if (global.currentState == PlayerStates.IDLE) {
 	//event_perform_object(decoy, ev_user0, 0);
-}*/
+}
