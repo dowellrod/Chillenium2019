@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_decoy1",
     "eventList": [
-        
+        {
+            "id": "016836b6-a51b-4e7f-8374-645b2c062292",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "80a2e319-449c-4e4e-96fa-6d18211534ba"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
