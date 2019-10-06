@@ -8,6 +8,7 @@ if (distance_to_object(obj_player) < 128) {
 	else canSee = false;
 }
 mp_potential_step(lastx, lasty, 1, false);
+//mp_potential_step(lastx, lasty, 1, false);
 
 
 	var spr_dir = point_direction(xprevious,yprevious,x,y)
