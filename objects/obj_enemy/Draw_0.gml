@@ -1,5 +1,5 @@
 // Sight
-draw_sprite(spr_enemy_sightRange, 0, x - 218, y - 218);
+draw_sprite(spr_enemy_sightRange, 0, x - 175, y - 175);
 
 
 if (distance_to_object(obj_player) < 160) {
