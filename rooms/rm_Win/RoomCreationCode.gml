@@ -1,0 +1,1 @@
+audio_play_sound(msc_theme, 1, 9999);
