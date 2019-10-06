@@ -7,3 +7,9 @@ window_set_fullscreen(true);
 
 // Record most recent room
 ds_stack_push(global.roomStack,room);
+
+// set wall sprites
+with(obj_wall) {
+	
+	image_index = 2;
+}
