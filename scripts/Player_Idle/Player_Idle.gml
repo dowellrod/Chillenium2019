@@ -8,9 +8,9 @@ if (global.INPUT_UP || global.INPUT_DOWN || global.INPUT_RIGHT || global.INPUT_L
 	global.currentState = PlayerStates.MOVE;
 }
 
-// Pathing
-for (i = 0; i < global.pathLength; i++) 
+/*// Pathing
+for (i = 0; i < global.pathLength; i++)
 	if(global.INPUT_PATH[i]){
 		image_speed = 1;
 		global.currentState = PlayerStates.PATH;
-	}
+	}*/

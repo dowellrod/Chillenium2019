@@ -1,3 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
-alarm_set(0, 1);
+
+// Inherit the parent event
+event_inherited();
+path_add_point(path, x, y, 100);
