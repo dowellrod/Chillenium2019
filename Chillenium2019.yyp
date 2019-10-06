@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "339aef63-6e28-4ce7-8bba-e7d3b444f640",
+            "Value": {
+                "id": "677792d1-cd4b-4e5a-adfa-32330748ed3d",
+                "resourcePath": "sprites\\spr_enemy_sightRange\\spr_enemy_sightRange.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "35838f62-7e81-44c3-b7ea-f76f432dc21a",
             "Value": {
                 "id": "17d1f8fe-ec60-402b-9f44-3b556cb7595e",
@@ -1131,6 +1139,14 @@
             "Value": {
                 "id": "d230f900-10ae-4707-8ccd-6bb74e06702f",
                 "resourcePath": "sprites\\spr_enAlt_180\\spr_enAlt_180.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f694c420-5829-41b0-8951-73f11d2c3e32",
+            "Value": {
+                "id": "62d3a9c2-4ced-46c6-a2a9-418ffdc90d38",
+                "resourcePath": "sprites\\spr_enemy_sightRange_pixel\\spr_enemy_sightRange_pixel.yy",
                 "resourceType": "GMSprite"
             }
         },
