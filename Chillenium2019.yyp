@@ -4,7 +4,7 @@
     "mvc": "1.0",
     "IsDnDProject": false,
     "configs": [
-
+        
     ],
     "option_ecma": false,
     "parentProject": {
@@ -25,7 +25,7 @@
             }
         ],
         "hiddenResources": [
-
+            
         ],
         "projectPath": "${base_project}"
     },
@@ -319,19 +319,19 @@
             }
         },
         {
-            "Key": "3be0f2a1-893b-4013-9ffc-de1e9ea1edfa",
-            "Value": {
-                "id": "53e79ff8-b405-4e84-b87d-6ab51004750e",
-                "resourcePath": "paths\\path6\\path6.yy",
-                "resourceType": "GMPath"
-            }
-        },
-        {
             "Key": "3b8740e2-59a1-41ba-b8e2-afcaaac2a7e0",
             "Value": {
                 "id": "c8b82ab8-9379-497c-9d3c-53cf4ea03b84",
                 "resourcePath": "objects\\obj_controls\\obj_controls.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3be0f2a1-893b-4013-9ffc-de1e9ea1edfa",
+            "Value": {
+                "id": "53e79ff8-b405-4e84-b87d-6ab51004750e",
+                "resourcePath": "paths\\path6\\path6.yy",
+                "resourceType": "GMPath"
             }
         },
         {
@@ -911,6 +911,14 @@
             }
         },
         {
+            "Key": "a53fd0c5-93ef-47ca-bff9-cb1df1cdf3c7",
+            "Value": {
+                "id": "dcdb231d-e1ca-4c5b-be29-2e24447a64e1",
+                "resourcePath": "objects\\obj_wall_top\\obj_wall_top.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a7301fe5-3543-40c9-bdde-2fbe3457d263",
             "Value": {
                 "id": "5c109153-04c2-4e65-9990-5dbf7ff98e12",
@@ -932,6 +940,14 @@
                 "id": "cce6d342-2182-4be4-8a74-3bf672533ac8",
                 "resourcePath": "views\\aa049623-7dad-48fe-8cbb-f5ab98399129.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "ad2ace7b-6222-49ca-b370-2a6545e67c7c",
+            "Value": {
+                "id": "2a7fc509-6204-4f85-bfa4-2ab7d0188df3",
+                "resourcePath": "sprites\\spr_wall_top\\spr_wall_top.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
