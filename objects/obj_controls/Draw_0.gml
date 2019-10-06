@@ -1,3 +1,4 @@
+draw_sprite(spr_ControlButton, 0, 1506, 920);
 draw_set_halign(fa_center);
 draw_set_valign(fa_center);
 draw_set_color(c_aqua);
@@ -16,4 +17,4 @@ draw_text_transformed(960, 650, "Red decoy kills the first enemy that attacks hi
 draw_text_transformed(960, 700, "You can only send out each decoy once per level!", .5, .5, image_angle);
 draw_text_transformed(960, 750, "Get the key to open the door.", .5, .5, image_angle);
 draw_text_transformed(960, 800, "Get to the door to go to the next level.", .5, .5, image_angle);
-draw_text(1506,989, "B a c k");
+draw_text(1506,989, "Back");
