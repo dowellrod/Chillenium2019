@@ -535,6 +535,14 @@
             }
         },
         {
+            "Key": "8337f55e-892e-4069-ab3b-2d1d6dad2ce0",
+            "Value": {
+                "id": "2b2320d6-3be5-45d8-8e96-d8d7e098593d",
+                "resourcePath": "sprites\\spr_siren\\spr_siren.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "8366606f-ab97-4271-9d0e-809bcd9873e3",
             "Value": {
                 "id": "cca63d74-e8df-42ac-90bd-66c9c7cfa766",

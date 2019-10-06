@@ -14,7 +14,16 @@ if (distance_to_object(obj_player) < 192) {
 	} 
 	else canSee = false;
 } else if (distance_to_object(obj_decoy1) < 192) {
-	if (!collision_line(x, y, obj_decoy1.x, obj_decoy1.y, obj_wall, false, false)) {
+	
+	// Siren Check
+	if(instance_exists(obj_decoy1)){
+		if (distance_to_object(obj_decoy1) < obj_decoy1.sirenRange && obj_decoy1.siren == true) {
+			lastx = obj_decoy1.x;
+			lasty = obj_decoy1.y;
+			canSee = true;
+		}
+	}
+	else if (!collision_line(x, y, obj_decoy1.x, obj_decoy1.y, obj_wall, false, false)) {
 		lastx = obj_decoy1.x;
 		lasty = obj_decoy1.y;
 		canSee = true;
